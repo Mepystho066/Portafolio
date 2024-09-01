@@ -1,0 +1,158 @@
+#ColorStiles{
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+}
+@font-face {
+    font-family: 'hackerchaos';
+    src: url('../assets/fonts/hackerchaos.otf');
+  }
+@font-face {
+    font-family: 'Jersey10';
+    src: url('../assets/fonts/Jersey10-Regular.ttf');
+  }
+
+div{
+    text-align: center;
+}
+
+#Principal{
+    --gray-700: oklch(36.98% 0.014 302.71);
+    text-align: center;
+    margin: 5% 5% 5% 5%;
+    border: 2% solid var(--gray-700);
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px var(--gray-700);
+    background:url("https://upload.wikimedia.org/wikipedia/commons/1/17/Digital_rain_animation_small_letters_clear.gif") ;
+    background-size: 50%;
+}
+#Principal h1{
+    padding: 10% 10% 1% 10%;
+    font-family:'Jersey10';
+    
+}
+
+#Principal h3{
+    animation: mob 3s ease-in-out;
+}
+
+@keyframes mob {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .titulo{
+    
+    color: #78df18;
+    animation-name: titulos 3s ease-in-out infinite;
+}
+
+
+
+#Principal h3{
+    padding: 2% 1% 10% 2%;
+    
+    
+}
+#Proyectos{
+    margin-bottom:5%;
+}
+
+#Informacion{
+    display: flex;
+    align-items: flex-start;
+}
+#Informacion div{
+    width: 50%;
+    padding-left: 5%;
+}
+#Estudios{
+  flex: 1px;
+  padding-right: 5%;
+}
+#Estudios section{
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+    background-color:var(--gray-900);
+    border: 2% solid var(--gray-700);
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px var(--gray-700);
+    padding: 1%;
+}
+
+#Habilidades{
+    margin: 1%;
+}
+#Habilidades h2{
+    font-family:'Jersey10';
+}
+#Habilidades div{
+    margin: 1%;
+}
+#Iconos{
+    margin: 10px; 
+    align-content: center;
+}
+#BodyIcons{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;  
+}
+#Iconos img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+#Iconos:hover{   
+    animation: iconsMov 3s ease-in-out infinite;
+}
+
+@keyframes iconsMov {
+    0% {
+        transform: translateY(-5px);
+        
+      }
+      50% {
+        transform: translateY(5px);
+      }
+      100% {
+        transform: translateY(-5px);
+      }
+      
+  }
+
+#Contacto{
+    flex: 1px;
+    margin: 1%;
+    text-align: center;
+}
+#Contacto img{
+    height: 5%;
+    width: 5%;
+}
+
+#Contacto div{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Contacto p{
+   margin: 1.5%;
+}
