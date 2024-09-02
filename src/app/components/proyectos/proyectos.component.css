@@ -4,6 +4,7 @@ div{
     justify-content: center;
     gap: 20px;
 }
+
 h2{
     font-family:'Jersey10';
 }
@@ -21,14 +22,7 @@ article{
     padding: 1%;
     box-sizing: border-box;
 }
-div{
 
-}
-div img{
-    width: 12%;
-    margin-left: 90%;
-    
-}
 
 article:hover{   
     animation: iconsMov 3s ease-in-out infinite;

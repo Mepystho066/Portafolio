@@ -2,7 +2,7 @@
 <div id="Principal">
 
     <h1 class="titulo"> Hola bienvenid&#64; a mi portafolio soy Samuel Arango </h1>
- 
+  
   <h3>Estudiante de Tecnología en Diseño y Programación de Soluciones de Software como Servicio – SaaS. </h3>
 
 </div>
@@ -39,7 +39,7 @@
   </div>
   <div id="BodyIcons">
     <div id="Iconos" *ngFor ="let icon of icons">
-      <a [href]="icon.href"><img [src]="icon.src" alt=""> </a>
+      <a [href]="icon.href"><img [src]="icon.src" [alt]="icon.alt" [title]="icon.title"> </a>
     </div>
   </div>
 </div>

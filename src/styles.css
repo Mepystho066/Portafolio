@@ -1,5 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+    font-family: 'japanRich';
+    src: url('./assets/fonts/JapanRich-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'alohaBrush';
+    src: url('./assets/fonts/AlohaBrush-DemoVersion-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 ColorStiles{
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
@@ -16,3 +32,50 @@ ColorStiles{
 :root{ color-scheme: dark;}
 html, body { height: 100%; }
 body { margin: 0%; font-family: Roboto, "Helvetica Neue", sans-serif; }
+#BodyIcons{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;  
+}
+
+#Iconos{
+    margin: 10px; 
+    align-content: center;
+}
+
+#Iconos img{
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+#Iconos:hover{   
+    animation: iconsMov 3s ease-in-out infinite;
+}
+@keyframes iconsMov {
+    0% {
+        transform: translateY(-5px);
+          
+      }
+      50% {
+        transform: translateY(5px);
+      }
+      100% {
+        transform: translateY(-5px);
+        
+      }
+      
+  }
+#TituloArticulo{
+    font-family:'alohaBrush';
+    color: darkgreen;
+    } 
+
+
+#ImgArticulo{
+    width: 20em;
+    padding: 1%;
+    --gray-700: oklch(36.98% 0.014 302.71);
+    border-radius: 1em;
+    box-shadow: 1px 1px 10px var(--gray-700);    
+}
