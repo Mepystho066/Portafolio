@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 # Portafolio
+
+
+## Iconos y favicon
+**Doge**: https://icons8.com/icons/set/doge
+**Icons**: 
+-   https://www.flaticon.es/icono-gratis/piton_3098090?term=python&page=1&position=6&origin=search&related_id=3098090   
