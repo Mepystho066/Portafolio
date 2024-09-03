@@ -26,3 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 # Portafolio
+
+
+# Fond Icons y favicon
+## Fond
+https://upload.wikimedia.org/wikipedia/commons/1/17/Digital_rain_animation_small_letters_clear.gif
+## Icons
+https://iconos8.es
+## favicon
+https://www.flaticon.es/icono-gratis/cyber-crime-5_8452715?term=hack&related_id=8452715

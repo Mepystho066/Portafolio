@@ -6,7 +6,7 @@ import {Component} from '@angular/core';
   imports: [NgFor],
   template: `
       <div class="Info">
-        <img id="ImgArticulo" src="https://images.pexels.com/photos/2481603/pexels-photo-2481603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+        <img id="ImgArticulo" src="/cmltd29yZAo.png">
         <h3 id="TituloArticulo">Rimword Mods Downloader</h3>
         <h4>Resumen</h4>
         <p>Este es una aplicacion creada con la intention de faciliar la descarga de mods de Rimword de algunas paginas en espesifico</p>  
@@ -15,10 +15,8 @@ import {Component} from '@angular/core';
           <a [href]="icon.href"><img [src]="icon.src" alt=""> </a>
         </div>
       </div>
-      
           <br/>
-    <img src="">
-    <p>Información extra de la del proyecto test test test test test test</p>
+   
     
     `,
   styles:`
@@ -34,6 +32,6 @@ import {Component} from '@angular/core';
 export class RimwordComponent {
   icons= [
     {src :"https://img.icons8.com/?size=100&id=YX03OUiHE3rz&format=png&color=000000",alt:"Python"},
-    {src :"https://img.icons8.com/?size=100&id=sbhfmWq4KRr1&format=png&color=000000",alt:"GitHib",href:"https://github.com/Mepystho066/"}
+    {src :"https://img.icons8.com/?size=100&id=sbhfmWq4KRr1&format=png&color=000000",alt:"GitHib",href:"https://github.com/Mepystho066/RimwordModsDownloader"}
     ];
 }

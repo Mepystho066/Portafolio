@@ -7,7 +7,7 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
   template: `
     
     <div class="Info">
-      <img id ="ImgArticulo"src="https://lystlesse.wordpress.com/wp-content/uploads/2016/10/tsutomu-nihei-blame-v07-0023.jpg?w=1000">
+      <img id ="ImgArticulo" src="/UHJpbnRzM0RfVUkK.png"/>
       <h3 id="TituloArticulo" >App Gestion Impresiones 3d</h3>
       <h4>Resumen</h4>
       <p>App para la gestion de Impresiones 3D, con su respectiva base de datos para el almacenamiento de la información<p>
@@ -17,7 +17,7 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
           <a [href]="icon.href"><img [src]="icon.src" alt=""> </a>
         </div>
       </div>
-
+      
     </div>
     `,
   styles:`
@@ -31,6 +31,7 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
 })
 export class GestionComponent {
   icons= [
-    {src :"https://img.icons8.com/?size=100&id=sbhfmWq4KRr1&format=png&color=000000",alt:"GitHib",href:"https://github.com/Mepystho066/"},
+    {src :"https://img.icons8.com/?size=100&id=YX03OUiHE3rz&format=png&color=000000",alt:"Python"},
+    {src :"https://img.icons8.com/?size=100&id=sbhfmWq4KRr1&format=png&color=000000",alt:"GitHib",href:"https://github.com/Mepystho066/RimwordModsDownloader"}
   ]
 }
