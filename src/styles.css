@@ -14,7 +14,12 @@
     font-weight: normal;
     font-style: normal;
   }
-
+  @font-face {
+    font-family: 'hackerchaos';
+    src: url('./assets/fonts/hackerchaos.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 ColorStiles{
     --bright-blue: oklch(51.01% 0.274 263.83);
