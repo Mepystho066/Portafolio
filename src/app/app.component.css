@@ -32,6 +32,7 @@ div{
     box-shadow: 1px 1px 10px var(--gray-700);
     background:url("/Digital_rain_animation_small_letters_clear.gif") ;
     background-size: contain;
+    overflow: hidden;
 }
 #Principal h1{
     padding: 10% 10% 1% 10%;
@@ -41,6 +42,7 @@ div{
 
 #Principal h3{
     animation: mob 3s ease-in-out;
+    display: inline-block;
 }
 
 @keyframes mob {

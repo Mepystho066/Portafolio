@@ -1,5 +1,6 @@
-import {ChangeDetectionStrategy, Component, inject} from '@angular/core';
+import {Component, inject} from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
+import { CommonModule } from '@angular/common'; 
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import { RimwordComponent ,RimwordCardComponent} from "../proyecto/rimword.component";
 import { GestionComponent,GestionCardComponent } from "../proyecto/gestion.component";
@@ -8,7 +9,7 @@ import { NgFor } from '@angular/common';
 @Component({
   selector: 'app-proyectos',
   standalone: true,
-  imports: [MatButtonModule, MatDialogModule, ProyectosComponent, RimwordComponent,RimwordCardComponent,GestionComponent,GestionCardComponent,NgFor],
+  imports: [MatButtonModule,CommonModule, MatDialogModule, ProyectosComponent, RimwordComponent,RimwordCardComponent,GestionComponent,GestionCardComponent,NgFor],
   templateUrl: './proyectos.component.html',
   styleUrl: './proyectos.component.css'
 })
@@ -34,6 +35,12 @@ export class ProyectosComponent {
       console.log(`Dialog result: ${result}`);
     });
   }
+
+  showProyectos: boolean = true; 
+  toggleView(): void {
+    this.showProyectos = !this.showProyectos;
+  }
+  
 }
 
 

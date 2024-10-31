@@ -1,0 +1,26 @@
+<div id="titles">
+<h2 id="Proyectos"  (click)="toggleView()">Proyectos</h2>  
+<h2 id="Articulos"  (click)="toggleView()">Articulos</h2>  
+</div>
+<div  *ngIf="showProyectos" >
+    
+    <article (click)="openDialog(RimwordComponent)" >
+      <app-rimword-card>
+      </app-rimword-card>
+    </article>
+
+  <article (click)="openDialog(GestionComponent)">
+      <app-gestion-card>
+      </app-gestion-card>
+  </article>
+  
+</div>
+
+<div  *ngIf="!showProyectos">
+    
+    <article (click)="openDialog(RimwordComponent)">
+      <app-rimword-card>
+      </app-rimword-card>
+    </article>
+  
+</div>

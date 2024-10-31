@@ -1,8 +1,9 @@
 import { Component} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { ProyectosComponent } from "./components/proyectos/proyectos.component";
+import { ProyectosComponent } from "./components/Panel/proyectos.component";
 import { RimwordComponent } from "./components/proyecto/rimword.component";
+
 @Component({
   selector: 'app-root',
   standalone: true,
