@@ -7,8 +7,7 @@ import {Component} from '@angular/core';
   template: `
       <div class="Info">
         <img id="ImgArticulo" src="/cmltd29yZAo.png">
-        <h3 id="TituloArticulo">Rimword Mods Downloader</h3>
-        <h4>Resumen</h4>
+        <h3 id="TituloArticulo">Rimword Mods Downloader</h3>  
         <p>Este es una aplicacion creada con la intention de faciliar la descarga de mods de Rimword de algunas paginas en espesifico</p>  
       <div id="BodyIcons">
         <div id="Iconos" *ngFor ="let icon of icons">
@@ -20,8 +19,11 @@ import {Component} from '@angular/core';
     
     `,
   styles:`
-  *{
+  h3{
     text-align: center;
+  }
+  p{
+    text-align: justify;
   }
   `
 })

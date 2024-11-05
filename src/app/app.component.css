@@ -76,10 +76,15 @@ div{
 #Informacion{
     display: flex;
     align-items: flex-start;
+
 }
 #Informacion div{
     width: 50%;
     padding-left: 5%;
+    
+}
+#datos p{
+    text-align: justify;
 }
 #Estudios{
   flex: 1px;
@@ -126,4 +131,8 @@ div{
 }
 #Contacto p{
    margin: 1.5%;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }

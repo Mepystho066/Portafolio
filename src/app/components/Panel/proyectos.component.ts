@@ -5,11 +5,12 @@ import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import { RimwordComponent ,RimwordCardComponent} from "../proyecto/rimword.component";
 import { GestionComponent,GestionCardComponent } from "../proyecto/gestion.component";
 import { NgFor } from '@angular/common';
+import { DockerkaliComponent,DockerkaliCardComponent } from '../ariculos/dockerkali.component';
 
 @Component({
   selector: 'app-proyectos',
   standalone: true,
-  imports: [MatButtonModule,CommonModule, MatDialogModule, ProyectosComponent, RimwordComponent,RimwordCardComponent,GestionComponent,GestionCardComponent,NgFor],
+  imports: [MatButtonModule, CommonModule, MatDialogModule, ProyectosComponent, RimwordComponent, RimwordCardComponent, GestionComponent, GestionCardComponent, NgFor, DockerkaliCardComponent],
   templateUrl: './proyectos.component.html',
   styleUrl: './proyectos.component.css'
 })
@@ -28,6 +29,7 @@ export class ProyectosComponent {
   readonly dialog = inject(MatDialog);
   GestionComponent:any = GestionComponent
   RimwordComponent:any = RimwordComponent
+  DockerkaliComponent:any=DockerkaliComponent
   openDialog( component:any) {
     const dialogRef = this.dialog.open(component,{height:'99%'});
 

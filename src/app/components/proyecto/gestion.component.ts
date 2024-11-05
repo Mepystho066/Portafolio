@@ -9,7 +9,6 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
     <div class="Info">
       <img id ="ImgArticulo" src="/image-1.png"/>
       <h3 id="TituloArticulo" >App Gestion Impresiones 3d</h3>
-      <h4>Resumen</h4>
       <p>App de escritorio para la gestion de Impresiones 3D, con su respectiva base de datos para el almacenamiento de la información<p>
       
       <div id="BodyIcons">
@@ -21,10 +20,11 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
     </div>
     `,
   styles:`
-  *{
-    text-align: center;
+  p{
+    text-align: justify;
   }
     h3{
+    text-align: center;
     font-family:'Jersey10';
     } 
   `
