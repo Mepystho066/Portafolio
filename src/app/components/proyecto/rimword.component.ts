@@ -19,9 +19,7 @@ import {Component} from '@angular/core';
     
     `,
   styles:`
-  h3{
-    text-align: center;
-  }
+ 
   p{
     text-align: justify;
   }

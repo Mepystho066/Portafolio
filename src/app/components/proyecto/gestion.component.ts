@@ -9,7 +9,7 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
     <div class="Info">
       <img id ="ImgArticulo" src="/image-1.png"/>
       <h3 id="TituloArticulo" >App Gestion Impresiones 3d</h3>
-      <p>App de escritorio para la gestion de Impresiones 3D, con su respectiva base de datos para el almacenamiento de la información<p>
+      <p>Una App de escritorio para la gestion de Impresiones 3D, con su respectiva base de datos para el almacenamiento de la información<p>
       
       <div id="BodyIcons">
         <div id="Iconos" *ngFor ="let icon of icons">
@@ -23,10 +23,7 @@ import { Component,TemplateRef, ViewChild } from '@angular/core';
   p{
     text-align: justify;
   }
-    h3{
-    text-align: center;
-    font-family:'Jersey10';
-    } 
+
   `
 })
 export class GestionCardComponent {
