@@ -1,5 +1,5 @@
-# Portafolio
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
 
 ## Development server
@@ -32,3 +32,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 **Doge**: https://icons8.com/icons/set/doge
 **Icons**: 
 -   https://www.flaticon.es/icono-gratis/piton_3098090?term=python&page=1&position=6&origin=search&related_id=3098090   
+=======
+  
+>>>>>>> refs/remotes/origin/main

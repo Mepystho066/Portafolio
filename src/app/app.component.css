@@ -30,8 +30,9 @@ div{
     border: 2% solid var(--gray-700);
     border-radius: 1em;
     box-shadow: 1px 1px 10px var(--gray-700);
-    background:url("https://upload.wikimedia.org/wikipedia/commons/1/17/Digital_rain_animation_small_letters_clear.gif") ;
+    background:url("/Digital_rain_animation_small_letters_clear.gif") ;
     background-size: contain;
+    overflow: hidden;
 }
 #Principal h1{
     padding: 10% 10% 1% 10%;
@@ -41,6 +42,7 @@ div{
 
 #Principal h3{
     animation: mob 3s ease-in-out;
+    display: inline-block;
 }
 
 @keyframes mob {
@@ -75,10 +77,15 @@ div{
 #Informacion{
     display: flex;
     align-items: flex-start;
+
 }
 #Informacion div{
     width: 50%;
     padding-left: 5%;
+    
+}
+#datos p{
+    text-align: justify;
 }
 #Estudios{
   flex: 1px;
@@ -125,4 +132,8 @@ div{
 }
 #Contacto p{
    margin: 1.5%;
+}
+footer{
+    display: flex;
+    justify-content: center;
 }

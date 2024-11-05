@@ -1,3 +1,8 @@
+#titles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 div{
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +12,9 @@ div{
 
 h2{
     font-family:'Jersey10';
+}
+h2:hover{
+    color:chartreuse;
 }
 
 article{
@@ -21,6 +29,7 @@ article{
     width: 25em;
     padding: 1%;
     box-sizing: border-box;
+    
 }
 
 
